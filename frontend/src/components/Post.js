@@ -10,7 +10,6 @@ function Post({ post, onPostDeleted, onPostLiked, onCommentAdded }) {
   const [commentText, setCommentText] = useState('');
   const [showComments, setShowComments] = useState(false);
   const [comments, setComments] = useState([]);
-  const [loading, setLoading] = useState(false);
 
   const handleLike = async () => {
     try {

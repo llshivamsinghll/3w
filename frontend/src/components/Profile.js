@@ -20,6 +20,7 @@ function Profile() {
 
   useEffect(() => {
     fetchUserPosts();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchUserPosts = async () => {
